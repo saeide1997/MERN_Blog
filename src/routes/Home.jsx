@@ -1,8 +1,8 @@
 import FeaturedPosts from "../components/featuredPosts";
 import LinksMap from "../components/links";
-import NavBar from "../components/navBar";
 import PostBar from "../components/postsBar";
 import { Link } from "react-router-dom";
+import RecentPosts from "../components/recentPosts";
 
 const Home = () => {
   return (
@@ -62,6 +62,7 @@ const Home = () => {
       </div>
       <PostBar />
       <FeaturedPosts/>
+      <RecentPosts/>
     </div>
   );
 };

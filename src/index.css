@@ -36,3 +36,21 @@ body {
 .animeButton{
   animation-duration: 10000ms;
 }
+.ql-toolbar {
+  background-color: #f7f0fe;
+  border: 1px solid #fbf4ff;
+  direction: ltr;
+}
+
+/* تغییر استایل متن داخل ویرایشگر */
+.ql-editor {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f0fe;
+  height: 50vh !important;
+}
+
+.shadowbox{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

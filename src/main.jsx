@@ -8,6 +8,7 @@ import Home from "./routes/Home";
 import { ClerkProvider } from "@clerk/clerk-react";
 import LoginPage from "./routes/LoginPage.jsx";
 import RegisterPage from "./routes/RegisterPage.jsx";
+import WritePage from "./routes/WritePage.jsx";
 
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       { path: "/aboute", element: <AboutePage /> },
       { path: "/posts", element: <AboutePage /> },
       { path: "/:slug", element: <AboutePage /> },
-      { path: "/write", element: <AboutePage /> },
+      { path: "/write", element: <WritePage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/register", element: <RegisterPage /> },
     ],
